@@ -1,0 +1,19 @@
+[project]
+name = "epic-build-common"
+version = "0.1.0"
+description = "Shared utilities for Epic Build microservices"
+authors = [{name = "Gabriel Eger", email = "gabriel_eger01@hotmail.com"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "aioredis>=2.0.1",
+    "async-timeout>=5.0.1",
+    "dnspython>=2.7.0",
+    "orjson>=3.10.15",
+    "pymongo>=4.11.1",
+    "typing_extensions>=4.12.2"
+]
+
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
